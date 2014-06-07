@@ -288,18 +288,18 @@ input[type=submit] {
   top: 8px;
   background: #848484;
 }
-.expando-button.selftext.collapsed, .res .selftext.collapsed.expando-button.toggleImage.image, .res .toggleImage.image.expando-button.collapsedExpando, .expando-button.video.collapsed, .res .video.collapsed.expando-button.toggleImage.image {
+.expando-button.selftext.collapsed, .res .selftext.collapsed.expando-button.toggleImage.image, .res .toggleImage.image.collapsedExpando.expando-button, .expando-button.video.collapsed, .res .video.collapsed.expando-button.toggleImage.image {
   -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.16);
   box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.16);
 }
-.expando-button.selftext.collapsed, .res .selftext.collapsed.expando-button.toggleImage.image, .res .toggleImage.image.expando-button.collapsedExpando, .expando-button.selftext.collapsed:hover, .res .toggleImage.image.expando-button.collapsedExpando:hover, .expando-button.video.collapsed, .res .video.collapsed.expando-button.toggleImage.image, .expando-button.video.collapsed:hover {
+.expando-button.selftext.collapsed, .res .selftext.collapsed.expando-button.toggleImage.image, .res .toggleImage.image.collapsedExpando.expando-button, .expando-button.selftext.collapsed:hover, .res .toggleImage.image.collapsedExpando.expando-button:hover, .expando-button.video.collapsed, .res .video.collapsed.expando-button.toggleImage.image, .expando-button.video.collapsed:hover {
   background: -webkit-linear-gradient(top, #f7f7f7, lightgray);
   background: -moz-linear-gradient(top, #f7f7f7, lightgray);
   background: -o-linear-gradient(top, #f7f7f7, lightgray);
   background: linear-gradient(top, #f7f7f7, lightgray);
 }
-.expando-button.selftext.collapsed::after, .res .selftext.collapsed.expando-button.toggleImage.image::after, .res .toggleImage.image.expando-button.collapsedExpando::after, .expando-button.video.collapsed::after, .res .video.collapsed.expando-button.toggleImage.image::after {
+.expando-button.selftext.collapsed::after, .res .selftext.collapsed.expando-button.toggleImage.image::after, .res .toggleImage.image.collapsedExpando.expando-button::after, .expando-button.video.collapsed::after, .res .video.collapsed.expando-button.toggleImage.image::after {
   content: '';
   position: absolute;
   top: 4px;
@@ -308,12 +308,12 @@ input[type=submit] {
   left: 8px;
   background: #848484;
 }
-.expando-button.selftext.expanded, .res .toggleImage.image.expando-button.collapsed.expanded, .res .toggleImage.image.expando-button.expanded, .expando-button.video.expanded, .res .video.expanded.expando-button.toggleImage.image {
+.expando-button.selftext.expanded, .res .toggleImage.image.collapsed.expanded.expando-button, .res .toggleImage.image.expanded.expando-button, .expando-button.video.expanded, .res .video.expanded.expando-button.toggleImage.image {
   -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
-.expando-button.selftext.expanded, .res .toggleImage.image.expando-button.collapsed.expanded, .res .toggleImage.image.expando-button.expanded, .expando-button.selftext.expanded:hover, .res .toggleImage.image.expando-button.expanded:hover, .expando-button.video.expanded, .res .video.expanded.expando-button.toggleImage.image, .expando-button.video.expanded:hover {
+.expando-button.selftext.expanded, .res .toggleImage.image.collapsed.expanded.expando-button, .res .toggleImage.image.expanded.expando-button, .expando-button.selftext.expanded:hover, .res .toggleImage.image.expanded.expando-button:hover, .expando-button.video.expanded, .res .video.expanded.expando-button.toggleImage.image, .expando-button.video.expanded:hover {
   background: -webkit-linear-gradient(top, #eaeaea, #c4c4c4);
   background: -moz-linear-gradient(top, #eaeaea, #c4c4c4);
   background: -o-linear-gradient(top, #eaeaea, #c4c4c4);
@@ -710,7 +710,7 @@ input[type=password] {
   background: #111111 url("%%banner%%") 0px 0px no-repeat;
   color: #c6c6c6;
   border-bottom: none;
-  height: 140px;
+  height: 128px;
   position: relative;
   -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
@@ -777,26 +777,26 @@ input[type=password] {
 }
 
 #sr-header-area {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   border-bottom: none;
 }
 #sr-header-area a {
-  color: #848484;
+  color: #a2a2a2;
 }
 #sr-header-area a:hover {
-  color: #d1d1d1;
+  color: #efefef;
   text-decoration: none;
 }
 #sr-header-area .selected > a {
-  color: #d1d1d1;
+  color: #efefef;
 }
 
 #sr-more-link {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .dropdown.srdrop .selected {
-  color: #848484;
+  color: #a2a2a2;
   background: none;
   padding-right: 5px;
 }
@@ -808,7 +808,7 @@ input[type=password] {
   height: 0px;
   border-left: solid 4px transparent;
   border-right: solid 4px transparent;
-  border-top: solid 4px #848484;
+  border-top: solid 4px #a2a2a2;
 }
 
 #header-bottom-right {
@@ -843,7 +843,7 @@ input[type=password] {
 }
 
 .pagename {
-  color: #b7b7b7;
+  color: #eaeaea;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
   font-variant: normal;
   text-transform: lowercase;
@@ -865,7 +865,7 @@ input[type=password] {
   color: inherit;
 }
 .pagename.redditname > a:hover {
-  color: #eaeaea;
+  color: white;
   text-decoration: none;
 }
 
@@ -1325,7 +1325,7 @@ input[type=password] {
 
 .subscribe-button {
   position: absolute;
-  top: 50px;
+  top: 44px;
   right: 10px;
   z-index: 9000;
 }
@@ -1911,7 +1911,7 @@ table.diff tbody .diff_header:not([id]) {
 .res #RESShortcutsRight,
 .res #RESShortcutsLeft,
 .res #RESShortcutsTrash {
-  color: #848484;
+  color: #a2a2a2;
   font-size: 13px;
 }
 .res .subbarlink.RESShortcutsCurrentSub {
@@ -2252,7 +2252,8 @@ table.diff tbody .diff_header:not([id]) {
 .res.res-nightmode > .content {
   background: none !important;
 }
-.res.res-nightmode .tn-dark-engraved-box, .res.res-nightmode .infobar, .res.res-nightmode .linkinfo,
+.res.res-nightmode .tn-dark-engraved-box, .res.res-nightmode .infobar,
+.res.res-nightmode .linkinfo,
 .res.res-nightmode .subscribers,
 .res.res-nightmode .commentarea > .menuarea,
 .res.res-nightmode .users-online,
@@ -2279,8 +2280,8 @@ table.diff tbody .diff_header:not([id]) {
   background: #111111 url("%%banner%%") left top no-repeat !important;
 }
 .res.res-nightmode > #header #sr-header-area {
-  background: rgba(0, 0, 0, 0.5) !important;
-  color: #848484;
+  background: rgba(0, 0, 0, 0.6) !important;
+  color: #a2a2a2;
 }
 .res.res-nightmode > #header #header-bottom-left {
   background: none !important;
@@ -2494,4 +2495,24 @@ table.diff tbody .diff_header:not([id]) {
 }
 .res #RESConsole {
   display: none !important;
+}
+
+#header {
+  background: #111111 url("%%banner%%") 0px 0px repeat;
+}
+
+#sr-header-area:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.pagename {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.pagename.redditname {
+  font-size: 3.1em;
+  font-weight: 600;
+}
+
+.res-nightmode.res > #header {
+  background: #111111 url(%%banner-night%%) left top repeat !important;
 }

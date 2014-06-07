@@ -1,0 +1,26 @@
+#header {
+  background: $header-bg url($header-bg-image) 0px 0px repeat;
+}
+
+#sr-header-area {
+  &:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+}
+
+.pagename {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+
+  &.redditname {
+    font-size: 3.1em;
+    font-weight: 600;
+  }
+}
+
+.res-nightmode {
+  &.res {
+      > #header {
+         background: $header-bg url(%%banner-night%%) left top repeat !important;
+      }
+   }
+}
